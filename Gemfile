@@ -8,13 +8,11 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
-gem 'less-rails-bootstrap'
+# gem 'bootstrap-sass'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'bcrypt-ruby'
-gem 'therubyracer'
+# gem 'therubyracer'
 gem 'factory_girl'
-gem 'launchy'
-gem 'minitest'
 
 group :development do
   gem 'better_errors'
@@ -26,9 +24,11 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'launchy'
 end
 
 group :test do
+  gem 'minitest'
   gem 'shoulda-matchers'
   gem "shoulda-callback-matchers"
 end
