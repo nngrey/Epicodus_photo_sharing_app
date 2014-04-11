@@ -2,6 +2,7 @@
 
 FactoryGirl.define do
   factory :photo do
-    name "MyString"
+    name "Badger"
+    photo { fixture_file_upload 'skunk.jpeg', 'image/jpeg'}
   end
 end

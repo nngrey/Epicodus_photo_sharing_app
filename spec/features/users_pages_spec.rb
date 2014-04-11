@@ -14,7 +14,7 @@ describe User do
       fill_in 'Password', with: user.password_digest
       fill_in 'Password confirmation', with: user.password_digest
       click_button 'Sign Up'
-      page.should have_content "It's an index"
+      page.should have_content "Photo Album"
     end
   end
 
