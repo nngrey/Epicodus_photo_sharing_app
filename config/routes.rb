@@ -8,6 +8,6 @@ Rails.application.routes.draw do
 
 
   resources :users, :only => [:new, :create]
-  resources :photos, :only => [:index, :new, :create]
+  resources :photos
   resources :sessions
 end

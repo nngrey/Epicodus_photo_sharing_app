@@ -5,6 +5,6 @@ class Photo < ActiveRecord::Base
   has_many :tags
   has_many :users, through: :tags
 
-  has_attached_file :image
+  has_attached_file :image, styles: {main: "200x200>"}
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 end
