@@ -1,1 +1,8 @@
-<h1>It's an index</h1>
+<h1>Photo Album</h1>
+
+<% @photos.each do |photo| %>
+  <h3><%= photo.name %></h3>
+  <p><%= image_tag photo.image.url %></p>
+<% end %>
+
+<%= link_to "Make a new photo", new_photo_path %>
