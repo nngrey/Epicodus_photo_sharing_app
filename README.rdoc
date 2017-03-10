@@ -1,3 +1,5 @@
+#Epicodus Exercise
+
 =Photo sharing app - Epicodus, Week 8
 
 * For this exercise, we practiced user authentication, file uploads with Paperclip, and integration testing with Capybara. 
